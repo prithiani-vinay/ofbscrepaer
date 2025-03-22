@@ -1,4 +1,5 @@
 {
+  "schemaVersion": 1,
   "title": "OTP Login Input",
   "type": "object",
   "properties": {
