@@ -1,1 +1,12 @@
-{'type': 'object', 'title': 'OTP Login for OfBusiness', 'description': 'Enter OTP to log in and scrape HRC and TMT steel prices', 'properties': {'otpCode': {'title': 'OTP Code', 'type': 'string', 'description': 'Enter the OTP sent to your registered mobile number'}}, 'required': ['otpCode']}
+{
+  "title": "OTP Login Input",
+  "type": "object",
+  "properties": {
+    "otpCode": {
+      "title": "OTP Code",
+      "type": "string",
+      "description": "Enter the OTP received on your mobile number"
+    }
+  },
+  "required": ["otpCode"]
+}
