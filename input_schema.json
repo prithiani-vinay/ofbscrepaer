@@ -6,7 +6,8 @@
     "otpCode": {
       "title": "OTP Code",
       "type": "string",
-      "description": "Enter the OTP received on your mobile number"
+      "description": "Enter the OTP received on your mobile number",
+      "editor": "textfield"
     }
   },
   "required": ["otpCode"]
